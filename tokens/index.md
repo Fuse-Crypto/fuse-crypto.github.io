@@ -14,7 +14,7 @@ title: Fuse Tokens
       <th>Token Transfers</th>
       <th>Transactions</th>
     </tr>
-{% for token in site.data.fuse.tokens %}
+{% for token in site.data.fuse-tokens %}
     <tr>
       <td>{{ token.symbol }}</td>
       <td>{{ token.name }}</td>
@@ -37,7 +37,7 @@ title: Fuse Tokens
       <th>Token Transfers</th>
       <th>Transactions</th>
     </tr>
-{% for token in site.data.ethereum.tokens %}
+{% for token in site.data.ethereum-tokens %}
     <tr>
       <td>{{ token.symbol }}</td>
       <td>{{ token.name }}</td>
