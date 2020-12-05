@@ -36,14 +36,16 @@ title: Fuse Tokens
       <th>Contract Address</th>
       <th>Token Transfers</th>
       <th>Transactions</th>
+      <th>DEX Trades</th>
     </tr>
 {% for token in site.data.ethereum-tokens %}
     <tr>
       <td>{{ token.symbol }}</td>
       <td>{{ token.name }}</td>
       <td>{{ token.address }}</td>
-      <td><a href="https://etherscan.io/token/{{ token.address }}" target="_blank">token transfers</a></td>
-      <td><a href="https://etherscan.io/address/{{ token.address }}" target="_blank">transactions</a></td>
+      <td><a href="https://etherscan.io/token/{{ token.address }}" target="_blank">Token Transfers</a></td>
+      <td><a href="https://etherscan.io/address/{{ token.address }}" target="_blank">Transactions</a></td>
+      <td><a href="https://etherscan.io/token/{{ token.address }}#tokenTrade" target="_blank">DEX Trades</a></td>
     </tr>
 {% endfor %}
   </tbody>
