@@ -17,3 +17,23 @@
 - symbol: 'G$'
   name: 'GoodDollar'
   address: '0x495d133B938596C9984d462F007B676bDc57eCEC'
+
+- symbol: 'EUR'
+  name: 'WikiBank'
+  address: '0x34E11ABE8347856c0fac7547B38885a4F2BE3A32'
+  
+- symbol: 'Paywise Points Program'
+  name: 'GoodDollar'
+  address: '0x4790422d44A9B7DFC1130c6A0749A40caE174Ed1'
+  
+- symbol: 'RST'
+  name: 'Roost'
+  address: '0x22197660F412FB6987f54C788FbB1a4e665A32ad'
+
+- symbol: 'MYST'
+  name: 'Mystic Valley'
+  address: '0x510FAD1AD23064Ae881B129314EFdD9FDa6d4782'
+  
+- symbol: 'VOLT'
+  name: 'Fuse Volts'
+  address: '0xD93878D3b011a96C0fF97cee984cd5c76B36Afc1'
