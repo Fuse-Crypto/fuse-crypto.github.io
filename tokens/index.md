@@ -13,6 +13,7 @@ title: Fuse Tokens
       <th>Contract Address</th>
       <th>Token Transfers</th>
       <th>Transactions</th>
+      <th>Decimals</th>
     </tr>
 {% for token in site.data.fuse-tokens %}
     <tr>
@@ -21,6 +22,7 @@ title: Fuse Tokens
       <td>{{ token.address }}</td>
       <td><a href="https://explorer.fuse.io/tokens/{{ token.address }}/token_transfers" target="_blank">token transfers</a></td>
       <td><a href="https://explorer.fuse.io/address/{{ token.address }}/transactions" target="_blank">transactions</a></td>
+      <td>{{ token.decimals }}</td>
     </tr>
 {% endfor %}
   </tbody>
