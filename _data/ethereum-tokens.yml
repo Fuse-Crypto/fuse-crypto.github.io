@@ -1,7 +1,9 @@
 - symbol: 'FUSE'
   name: 'Fuse Token'
+  decimals: 18
   address: '0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d'
 
 - symbol: 'G$'
   name: 'GoodDollar'
+  decimals: 2
   address: '0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B'
