@@ -1,65 +1,70 @@
 - symbol: 'WFUSE'
   name: 'Wrapped Fuse'
+  decimals: 18
   address: '0x0BE9e53fd7EDaC9F859882AfdDa116645287C629'
-  decimals: 18
-
-- symbol: 'UNI-V2'
-  name: 'Uniswap V2 (G$ / WFUSE)'
-  address: '0x8d441C2Ff54C015A1BE22ad88e5D42EFBEC6C7EF'
-  decimals: 18
 
 - symbol: 'WETH'
   name: 'Wrapped Ether on Fuse'
-  address: '0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670'
   decimals: 18
+  address: '0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670'
 
 - symbol: 'WBTC'
   name: 'Wrapped BTC on Fuse'
-  address: '0x33284f95ccb7B948d9D352e1439561CF83d8d00d'
   decimals: 8
- 
+  address: '0x33284f95ccb7B948d9D352e1439561CF83d8d00d'
+
 - symbol: 'DAI'
   name: 'Dai Stablecoin on Fuse'
-  address: '0x94Ba7A27c7A95863d1bdC7645AC2951E0cca06bA'
   decimals: 18
+  address: '0x94Ba7A27c7A95863d1bdC7645AC2951E0cca06bA'
+
+- symbol: 'USDC'
+  name: 'USD Coin on Fuse'
+  decimals: 6
+  address: '0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5'
 
 - symbol: 'USDT'
   name: 'Tether USD on Fuse'
-  address: '0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10'
   decimals: 6
+  address: '0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10'
+
+- symbol: 'UNI-V2'
+  name: 'Uniswap V2 (G$ / WFUSE)'
+  decimals: 18
+  address: '0x8d441C2Ff54C015A1BE22ad88e5D42EFBEC6C7EF'
 
 - symbol: 'G$'
   name: 'GoodDollar'
-  address: '0x495d133B938596C9984d462F007B676bDc57eCEC'
   decimals: 2
-  
+  address: '0x495d133B938596C9984d462F007B676bDc57eCEC'
+
 - symbol: 'EUR'
   name: 'WikiBank'
-  address: '0x34E11ABE8347856c0fac7547B38885a4F2BE3A32'
   decimals: 18
+  address: '0x34E11ABE8347856c0fac7547B38885a4F2BE3A32'
 
 - symbol: 'PPP'
   name: 'PayWise Points Programme'
-  address: '0x4790422d44A9B7DFC1130c6A0749A40caE174Ed1'
   decimals: 18
+  address: '0x4790422d44A9B7DFC1130c6A0749A40caE174Ed1'
  
 - symbol: 'DZAR'
   name: 'Digital Rand'
-  address: '0xBfF749Fa790D4Cbb789a63B5e5173E3F877aD237'
   decimals: 6
+  address: '0xBfF749Fa790D4Cbb789a63B5e5173E3F877aD237'
 
 - symbol: 'RST'
   name: 'Roost'
-  address: '0x22197660F412FB6987f54C788FbB1a4e665A32ad'
   decimals: 18
+  address: '0x22197660F412FB6987f54C788FbB1a4e665A32ad'
 
 - symbol: 'MYST'
   name: 'Mystic Valley'
-  address: '0x510FAD1AD23064Ae881B129314EFdD9FDa6d4782'
   decimals: 18
+  address: '0x510FAD1AD23064Ae881B129314EFdD9FDa6d4782'
 
 - symbol: 'VOLT'
   name: 'FUSE Volts'
-  address: '0xD93878D3b011a96C0fF97cee984cd5c76B36Afc1'
   decimals: 18
+  address: '0xD93878D3b011a96C0fF97cee984cd5c76B36Afc1'
 
