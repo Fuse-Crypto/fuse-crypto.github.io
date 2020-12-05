@@ -1,0 +1,7 @@
+- symbol: 'FUSE'
+  name: 'Fuse Token'
+  address: '0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d'
+
+- symbol: 'G$'
+  name: 'GoodDollar'
+  address: '0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B'
