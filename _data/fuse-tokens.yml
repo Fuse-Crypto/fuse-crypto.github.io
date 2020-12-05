@@ -3,13 +3,8 @@
   address: '0x0BE9e53fd7EDaC9F859882AfdDa116645287C629'
   decimals: 18
 
-- symbol: 'WFUSE'
-  name: 'Wrapped Fuse'
-  address: '0x0BE9e53fd7EDaC9F859882AfdDa116645287C629'
-  decimals: 18
-  
 - symbol: 'UNI-V2'
-  name: 'Uniswap V2 (G$/WETH)'
+  name: 'Uniswap V2 (G$ / FUSE)'
   address: '0x8d441C2Ff54C015A1BE22ad88e5D42EFBEC6C7EF'
   decimals: 18
 
