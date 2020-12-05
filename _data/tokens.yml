@@ -1,22 +1,19 @@
-
-
+- symbol: 'WFUSE'
+  name: 'Wrapped Fuse'
+  address: '0x0BE9e53fd7EDaC9F859882AfdDa116645287C629'
+  
 - symbol: 'WETH'
-  name: 'Wrapped ETH'
+  name: 'Wrapped Ether on Fuse'
   address: '0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670'
   
-- symbol: 'WFUSE'
-  name: 'Wrapped FUSE'
-  address: '0x0BE9e53fd7EDaC9F859882AfdDa116645287C629'
-
 - symbol: 'WBTC'
-  name: 'Wrapped BTC'
+  name: 'Wrapped BTC on Fuse'
   address: '0x33284f95ccb7B948d9D352e1439561CF83d8d00d'
   
 - symbol: 'DAI'
-  name: 'DAI Stablecoin'
+  name: 'Dai Stablecoin on Fuse'
   address: '0x94Ba7A27c7A95863d1bdC7645AC2951E0cca06bA'
 
 - symbol: 'G$'
   name: 'GoodDollar'
   address: '0x495d133B938596C9984d462F007B676bDc57eCEC'
- 
