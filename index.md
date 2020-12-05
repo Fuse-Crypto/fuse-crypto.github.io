@@ -3,6 +3,6 @@ layout: default
 title: Fuse Crypto
 ---
 
-<h1>Welcome to Fuse Crypto!</h1>
+# Welcome to Fuse Crypto!
 
 * [Tokens on the Fuse Network](tokens.md)
