@@ -5,4 +5,4 @@ title: Fuse Crypto
 
 # Welcome to Fuse Crypto!
 
-* [Tokens on the Fuse Network](tokens.md)
+* [Tokens on the Fuse Network](tokens)
