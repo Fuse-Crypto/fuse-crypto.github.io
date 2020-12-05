@@ -1,0 +1,7 @@
+- symbol: G$
+  name: GoodDollar
+  address: 0x495d133B938596C9984d462F007B676bDc57eCEC
+
+- symbol: WETH
+  name: Wrappeth ETH
+  address: 0xd8Bf72f3e163B9CF0C73dFdCC316417A5ac20670
