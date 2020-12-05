@@ -1,5 +1,5 @@
 ---
-layout: Default
+layout: default
 title: Tokens on the Fuse Network
 ---
 
