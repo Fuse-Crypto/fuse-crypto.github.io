@@ -2,7 +2,20 @@
 <html>
 <head>
 <title>{{ page.title }}</title>
-<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
+<style>
+body { 
+  font-family:helvetica, sans-serif; 
+  margin:10px; 
+  color:black; 
+  background-color:white; 
+}
+table {
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+</style>
 </head>
 <body>
 {{ content }}
