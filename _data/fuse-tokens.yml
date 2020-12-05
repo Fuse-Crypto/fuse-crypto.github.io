@@ -28,8 +28,8 @@
   address: '0x34E11ABE8347856c0fac7547B38885a4F2BE3A32'
   decimals: 18
 
-- symbol: 'PayWise Points Programme
-  name: 'GoodDollar'
+- symbol: 'PPP'
+  name: 'PayWise Points Programme'
   address: '0x4790422d44A9B7DFC1130c6A0749A40caE174Ed1'
   decimals: 18
  
