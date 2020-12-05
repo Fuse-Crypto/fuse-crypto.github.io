@@ -1,2 +1,3 @@
-# fuse-crypto.github.io
+Welcome to Fuse Crypto!
+
 https://fuse-crypto.github.io/
