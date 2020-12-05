@@ -19,8 +19,8 @@ title: Tokens on the Fuse Network
       <td>{{ token.symbol }}</td>
       <td>{{ token.name }}</td>
       <td>{{ token.address }}</td>
-      <td>[token transfers](https://explorer.fuse.io/tokens/{{ token.address }}/token_transfers){:target="_blank"}</td>
-      <td>[transactions](https://explorer.fuse.io/address/{{ token.address }}/transactions){:target="_blank"}</td>
+      <td><a href="https://explorer.fuse.io/tokens/{{ token.address }}/token_transfers" target="_blank">token transfers</a></td>
+      <td><a href="https://explorer.fuse.io/address/{{ token.address }}/transactions" target="_blank">transactions</a></td>
     </tr>
 {% endfor %}
   </tbody>
