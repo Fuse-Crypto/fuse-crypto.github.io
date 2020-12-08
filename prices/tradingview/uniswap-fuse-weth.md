@@ -3,7 +3,7 @@ layout: default
 title: UniSwap FUSE - WETH chart from tradingview
 ---
 
-<div style="height:100%; width:100%">
+<div style="height: 900; width: 100%;">
   
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
