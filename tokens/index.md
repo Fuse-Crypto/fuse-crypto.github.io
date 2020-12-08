@@ -5,7 +5,7 @@ title: Fuse Tokens
 
 # Fuse Network
 
-## Tokens on the Fuse Network
+## Top Tokens
 
 <table><tbody><tr><th>Symbol</th><th>Token Name</th><th>Contract Address</th><th>Decimals</th><th>Token Transfers</th><th>Transactions</th></tr>
 {% for token in site.data.fuse-tokens %}
@@ -20,7 +20,7 @@ title: Fuse Tokens
 {% endfor %}
 </tbody></table>
 
-## Stablecoins on the Fuse Network
+## Stablecoins
 
 <table><tbody><tr><th>Symbol</th><th>Token Name</th><th>Contract Address</th><th>Decimals</th><th>Token Transfers</th><th>Transactions</th></tr>
 {% for token in site.data.fuse-tokens-stablecoins %}
@@ -35,7 +35,7 @@ title: Fuse Tokens
 {% endfor %}
 </tbody></table>
 
-## Liquidity Provider Tokens on the Fuse Network
+## Liquidity Provider Tokens
 
 <table><tbody><tr><th>Symbol</th><th>Token Name</th><th>Contract Address</th><th>Decimals</th><th>Token Transfers</th><th>Transactions</th></tr>
 {% for token in site.data.fuse-tokens-liquidity-providers %}
@@ -50,7 +50,7 @@ title: Fuse Tokens
 {% endfor %}
 </tbody></table>
 
-## Other Tokens on the Fuse Network
+## Other Tokens
 
 <table><tbody><tr><th>Symbol</th><th>Token Name</th><th>Contract Address</th><th>Decimals</th><th>Token Transfers</th><th>Transactions</th></tr>
 {% for token in site.data.fuse-tokens-others %}
