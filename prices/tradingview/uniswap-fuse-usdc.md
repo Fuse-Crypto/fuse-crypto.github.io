@@ -3,16 +3,22 @@ layout: default
 title: UniSwap FUSE - USDC chart from tradingview
 ---
 
+<style>
+.tradingview-widget-container div div {
+  height: 600px !important;
+  width: 100%;
+}
+</style>
+
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
-  <div id="tradingview_0210d"></div>
+  <div id="tradingview_c5d9e"></div>
   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/FUSEUSDC/?exchange=UNISWAP" rel="noopener" target="_blank"><span class="blue-text">FUSEUSDC Chart</span></a> by TradingView</div>
   <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
   <script type="text/javascript">
   new TradingView.widget(
   {
-  "width": 980,
-  "height": 610,
+  "autosize": true,
   "symbol": "UNISWAP:FUSEUSDC",
   "timezone": "Etc/UTC",
   "theme": "light",
@@ -21,11 +27,11 @@ title: UniSwap FUSE - USDC chart from tradingview
   "toolbar_bg": "#f1f3f6",
   "enable_publishing": false,
   "withdateranges": true,
-  "range": "3M",
+  "range": "1M",
   "hide_side_toolbar": false,
   "allow_symbol_change": true,
   "details": true,
-  "container_id": "tradingview_0210d"
+  "container_id": "tradingview_c5d9e"
 }
   );
   </script>
