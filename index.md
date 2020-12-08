@@ -3,7 +3,10 @@ layout: default
 title: Fuse Crypto
 ---
 
-# Welcome to Fuse Crypto Beta Test!
+# Welcome to the Fuse Crypto Beta Test!
 
-* [Tokens](tokens/)
-* [Prices](prices/)
+[Tokens](tokens/)
+
+[Liquidity Pools](liquidity-pools/)
+
+[Prices](prices/)
