@@ -10,14 +10,14 @@ title: Fuse Tokens
     <tr>
       <th>Symbol</th>
       <th>Token Name</th>
-      <th class="addr">Contract Address</th>
+      <th>Contract Address</th>
       <th>Decimals</th>
       <th>Token Transfers</th>
       <th>Transactions</th>
     </tr>
 {% for token in site.data.fuse-tokens %}
     <tr>
-      <td>{{ token.symbol }}</td>
+      <td class="symbol">{{ token.symbol }}</td>
       <td>{{ token.name }}</td>
       <td class="addr">{{ token.address }}</td>
       <td>{{ token.decimals }}</td>
@@ -35,7 +35,7 @@ title: Fuse Tokens
     <tr>
       <th>Symbol</th>
       <th>Token Name</th>
-      <th class="addr">Contract Address</th>     
+      <th>Contract Address</th>     
       <th>Decimals</th>
       <th>Token Transfers</th>
       <th>Transactions</th>
@@ -43,7 +43,7 @@ title: Fuse Tokens
     </tr>
 {% for token in site.data.ethereum-tokens %}
     <tr>
-      <td>{{ token.symbol }}</td>
+      <td class="symbol">{{ token.symbol }}</td>
       <td>{{ token.name }}</td>
       <td class="addr">{{ token.address }}</td>
       <td>{{ token.decimals }}</td>
