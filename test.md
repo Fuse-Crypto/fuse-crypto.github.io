@@ -5,10 +5,21 @@ title: test
 
 # Tests
 <pre>
-page.path: {{ page.path}} 
-page.name: {{ page.name }} 
-page.url: {{ page.url }} 
-page: {{ page | jsonify | escape }} 
+page.layout   : {{ page.layout }} 
+page.title    : {{ page.title }} 
+page.dir      : {{ page.dir }} 
+page.name     : {{ page.name }} 
+page.path     : {{ page.path }} 
+page.url      : {{ page.url }} 
+
+
+
+site.name   : {{ site.name }} 
+site.time   : {{ site.time }} 
+site.source : {{ site.source }} 
+site.posts  : {{ site.posts }} 
+site.tags   : {{ site.tags }} 
+site.config : {{ site.config }} 
 
 site.github.repository_url        : {{ site.github.repository_url }} 
 site.github.api_url               : {{ site.github.api_url }} 
@@ -50,7 +61,13 @@ site.github.versions              : {{ site.github.versions }}
 site.github.wiki_url              : {{ site.github.wiki_url }} 
 site.github.zip_url               : {{ site.github.zip_url }} 
 
+
+page: {{ page | jsonify | escape }} 
+
 site.github: {{ site.github | jsonify | escape }} 
 
 site: {{ site | jsonify | escape }} 
+
+
+
 </pre>
