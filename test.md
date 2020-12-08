@@ -5,16 +5,12 @@ title: test
 
 # Tests
 <pre>
-site.github.repository_url: {{ site.github.repository_url }}
+page.path: {{ page.path}} 
+page.name: {{ page.name }} 
+page.url: {{ page.url }} 
+page: {{ page | jsonify | escape }} 
 
-page.url: {{ page.url }}
-
-page.path: {{ page.path}}
-
-page.relative_path: {{ page.relative_path}}
-
-page: {{ page | jsonify | escape }}
-
-site: {{ site | jsonify | escape }}
-
+site.github.repository_url: {{ site.github.repository_url }} 
+site.github: {{ site.github | jsonify | escape }} 
+site: {{ site | jsonify | escape }} 
 </pre>
