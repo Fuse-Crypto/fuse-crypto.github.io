@@ -1,0 +1,4 @@
+- symbol: 'UNI-V2'
+  name: 'Uniswap V2 (G$ / WFUSE)'
+  decimals: 18
+  address: '0x8d441C2Ff54C015A1BE22ad88e5D42EFBEC6C7EF'
