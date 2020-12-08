@@ -13,6 +13,21 @@
 - name: FuseSwap
   url: https://fuseswap.com/
 
+- name: 'UniSwap Info: Fuse Token'
+  url: https://info.uniswap.org/token/0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d
+
+- name: 'UniSwap Info: FUSE-USDC Pair'
+  url: https://info.uniswap.org/pair/0x611805ce4071c096f5b44557b45685802d8a46fe
+
+- name: 'UniSwap Info: FUSE-ETH Pair'
+  url: https://info.uniswap.org/pair/0x4ce3687fed17e19324f23e305593ab13bbd55c4d
+  
+- name: 'UniSwap Info: DAI-FUSE Pair'
+  url: https://info.uniswap.org/pair/0xeb5455590bb2bf67d54d7d3affaa1930c5132b14
+
+- name: 'etherscan: Fuse Token Tracker'
+  url: https://etherscan.io/token/0x970B9bB2C0444F5E81e9d0eFb84C8ccdcdcAf84d
+
 - name: Fuse Network Status
   url: https://health.fuse.io/
 
