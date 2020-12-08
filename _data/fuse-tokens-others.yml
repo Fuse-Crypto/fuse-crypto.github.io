@@ -1,0 +1,19 @@
+- symbol: 'DZAR'
+  name: 'Digital Rand'
+  decimals: 6
+  address: '0xBfF749Fa790D4Cbb789a63B5e5173E3F877aD237'
+
+- symbol: 'RST'
+  name: 'Roost'
+  decimals: 18
+  address: '0x22197660F412FB6987f54C788FbB1a4e665A32ad'
+
+- symbol: 'MYST'
+  name: 'Mystic Valley'
+  decimals: 18
+  address: '0x510FAD1AD23064Ae881B129314EFdD9FDa6d4782'
+
+- symbol: 'VOLT'
+  name: 'FUSE Volts'
+  decimals: 18
+  address: '0xD93878D3b011a96C0fF97cee984cd5c76B36Afc1'
