@@ -20,7 +20,7 @@ title: Fuse Tokens
       <td class="symbol">{{ token.symbol }}</td>
       <td>{{ token.name }}</td>
       <td class="addr">{{ token.address }}</td>
-      <td>{{ token.decimals }}</td>
+      <td class="r">{{ token.decimals }}</td>
       <td><a href="https://explorer.fuse.io/tokens/{{ token.address }}/token_transfers" target="_blank">token transfers</a></td>
       <td><a href="https://explorer.fuse.io/address/{{ token.address }}/transactions" target="_blank">transactions</a></td>
     </tr>
@@ -46,7 +46,7 @@ title: Fuse Tokens
       <td class="symbol">{{ token.symbol }}</td>
       <td>{{ token.name }}</td>
       <td class="addr">{{ token.address }}</td>
-      <td>{{ token.decimals }}</td>
+      <td class="r">{{ token.decimals }}</td>
       <td><a href="https://etherscan.io/token/{{ token.address }}" target="_blank">Token Transfers</a></td>
       <td><a href="https://etherscan.io/address/{{ token.address }}" target="_blank">Transactions</a></td>
       <td><a href="https://etherscan.io/token/{{ token.address }}#tokenTrade" target="_blank">DEX Trades</a></td>
