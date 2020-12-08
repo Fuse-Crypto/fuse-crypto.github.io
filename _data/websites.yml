@@ -13,24 +13,33 @@
 - name: FuseSwap
   url: https://fuseswap.com/
 
+- name: Fuse Network Status
+  url: https://health.fuse.io/
+
 - name: Fuse LP Rewards
   url: https://rewards.fuse.io/
+
+- name: Fuse Staking
+  url: https://staking.fuse.io/
+
+- name: Fuse Blog
+  url: https://medium.com/fusenet
 
 - name: 'CoinGecko: Fuse Network Token'
   url: https://www.coingecko.com/nl/coins/fuse-network-token
 
-- name: Fuse Blog
-  url: https://medium.com/fusenet
-  
 - name: 'Fuse Network ($FUSE): What is it?'
   url: https://boxmining.com/fuse-network/
 
-- name: Fuse Staking
-  url: https://staking.fuse.io/
-  
-- name: Fuseprime
+- name: Fuseprime (Validator)
   url: https://fuseprime.com/
   description:
+
+- name: Liquify (Validator)
+  url: https://liquify.info/
+
+- name: Fusible (Validator)
+  url: www.fusible.link
 
 - name: Fuse Crypto
   url: https://fuse-crypto.github.io
