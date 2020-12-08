@@ -3,7 +3,9 @@ layout: default
 title: FUSE Prices
 ---
 
-[Chart: UniSwap FUSE - USDC](tradingview/UNISWAP-FUSEUSDC) from tradingview
+[Chart: UniSwap FUSE - USDC](tradingview/uniswap-fuse-usdc) from tradingview
+
+[Chart: UniSwap FUSE - WETH](tradingview/uniswap-fuse-weth) from tradingview
 
 [Test: Historic Price Chart](historic) from CoinGecko
 
