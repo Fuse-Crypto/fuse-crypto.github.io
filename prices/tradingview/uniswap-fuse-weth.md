@@ -4,8 +4,8 @@ title: UniSwap FUSE - WETH chart from tradingview
 ---
 
 <style>
-.tradingview-widget-container {
-  height: 800px;
+.tradingview-widget-container div div {
+  height: 600px !important;
   width: 100%;
 }
 </style>
@@ -37,5 +37,3 @@ title: UniSwap FUSE - WETH chart from tradingview
   </script>
 </div>
 <!-- TradingView Widget END -->
-
-</div>
