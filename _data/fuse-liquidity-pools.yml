@@ -19,8 +19,8 @@
   address: '0x9f17b1895633E855b8b1C1D0Ade9B3B72EB0590C'
 
 - name: 'FuseSwap'
-  token1: 'USDT'
-  token2: 'USDC'
+  token1: 'USDC'
+  token2: 'USDT'
   address: '0x55251a974ad10ed5BB5d48688EB544c29c99800A'
 
 - name: 'FuseSwap'
