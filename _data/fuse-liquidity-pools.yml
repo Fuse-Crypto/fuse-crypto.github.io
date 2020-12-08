@@ -36,7 +36,7 @@
 - name: 'FuseSwap'
   token1: 'DAI'
   token2: 'USDT'
-  address: 0x38EBDa3998815dAD9c01Eb0Becfb937F4C3E5461'
+  address: '0x38EBDa3998815dAD9c01Eb0Becfb937F4C3E5461'
 
 - name: 'FuseSwap'
   token1: 'USDC'
