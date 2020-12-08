@@ -16,13 +16,13 @@
 - name: Fuse LP Rewards
   url: https://rewards.fuse.io/
 
-- name: CoinGecko: Fuse Network Token
+- name: 'CoinGecko: Fuse Network Token'
   url: https://www.coingecko.com/nl/coins/fuse-network-token
 
 - name: Fuse Blog
   url: https://medium.com/fusenet
   
-- name: Fuse Network ($FUSE): What is it?
+- name: 'Fuse Network ($FUSE): What is it?'
   url: https://boxmining.com/fuse-network/
 
 - name: Fuse Staking
