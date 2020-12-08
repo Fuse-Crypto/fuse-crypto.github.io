@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>price test</title>
+<style>
+.price, .meta {
+  padding: 2px;
+}
+.price {
+  background-color: #ccffcc;
+}
+.meta {
+  background-color: #cccccc;
+}
+</style>
+</head>
+<body>
+<pre>
+Price Test:
+
+FUSE/USD: <span id="fuse-usd" class="price"></span>
+
+FUSE/BTC: <span id="fuse-btc" class="price"></span>
+
+Time    : <span id="date-time" class="meta"></span>
+API Url : <span id="api-url" class="meta"></span>
+<hr />
+</pre>
+
+<script>
+let date = new Date();
+let dateTime = pad(date.getFullYear()) + '-' + pad(date.getMonth()+1) + '-' + pad(date.getDate()) 
++ ' ' + pad(date.getHours()) + ':' + pad(date.getMinutes()) + ':' + pad(date.getSeconds());
+document.getElementById('date-time').textContent = dateTime;
+
+const apiUrl = 'https://explorer.fuse.io/api/v1/?module=stats&action=ethprice';
+document.getElementById('api-url').textContent = apiUrl;
+
+fetch(apiUrl)
+  .then(response => response.json())
+  .then(function(data) {
+	console.log(data.result)
+	document.getElementById('fuse-usd').textContent = '$ ' + data.result.ethusd;
+	document.getElementById('fuse-btc').textContent = data.result.ethbtc + ' BTC';
+	//console.log('ethbtc_timestamp: ' + data.result.ethbtc_timestamp);
+	//console.log('ethusd_timestamp: ' + data.result.ethusd_timestamp);
+  })
+  .catch(function(error) { console.log(error); });
+
+
+function pad(number) {
+  if ( number < 10 ) {
+    return '0' + number;
+  }
+  return number;
+}
+</script>
+</body>
+</html>
+ 
