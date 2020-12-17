@@ -1,0 +1,7 @@
+- name: Good Dollar
+  url: https://www.gooddollar.org/
+  token: '0x495d133B938596C9984d462F007B676bDc57eCEC'
+  
+- name: Wikibank
+  url: https://wikibank.eu/
+  token: '0x34E11ABE8347856c0fac7547B38885a4F2BE3A32'
