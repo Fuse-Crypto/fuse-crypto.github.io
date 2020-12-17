@@ -1,4 +1,54 @@
 - symbol: 'UNI-V2'
+  name: 'Uniswap V2 (WETH / WFUSE)'
+  decimals: 18
+  address: '0xa856d3C54f4aBA183b0cFbCf234ABFe787541b8a'
+
+- symbol: 'UNI-V2'
   name: 'Uniswap V2 (G$ / WFUSE)'
   decimals: 18
   address: '0x8d441C2Ff54C015A1BE22ad88e5D42EFBEC6C7EF'
+ 
+- symbol: 'UNI-V2'
+  name: 'Uniswap V2 (DAI / WFUSE)'
+  decimals: 18
+  address: '0x6cF952247f270BDd28d96200D8F97eF0f8F8E090'
+  
+- symbol: 'UNI-V2'
+  name: 'Uniswap V2 (USDC / WFUSE)'
+  decimals: 18
+  address: '0x9f17b1895633E855b8b1C1D0Ade9B3B72EB0590C'
+  
+- symbol: 'UNI-V2'
+  name: 'Uniswap V2 (USDC / USDT)'
+  decimals: 18
+  address: '0x55251a974ad10ed5BB5d48688EB544c29c99800A'
+  
+- symbol: 'UNI-V2'
+  name: 'Uniswap V2 (WBTC / WETH)'
+  decimals: 18
+  address: '0x067A7db4B5a4291B79D999b8104021653be4611f'
+  
+- symbol: 'UNI-V2'
+  name: 'Uniswap V2 (DAI / WETH)'
+  decimals: 18
+  address: '0xDeCdcb2B9019bdAB10808031e16DB2fDD154A726'
+  
+- symbol: 'UNI-V2'
+  name: 'Uniswap V2 (DAI / USDT)'
+  decimals: 18
+  address: '0x38EBDa3998815dAD9c01Eb0Becfb937F4C3E5461'
+  
+- symbol: 'UNI-V2'
+  name: 'Uniswap V2 (USDC / WETH)'
+  decimals: 18
+  address: '0x20a680D69a5aE2677B8CF43aBF63aAD6D8d5119A'
+  
+- symbol: 'UNI-V2'
+  name: 'Uniswap V2 (DZAR / WFUSE)'
+  decimals: 18
+  address: '0x72e208fb04e2029810B22c72Bc3E2645E51db301'
+  
+- symbol: 'UNI-V2'
+  name: 'Uniswap V2 (DZAR / DAI)'
+  decimals: 18
+  address: '0x82d5B82514962c1BCe2C6F020861958E5d432158'
